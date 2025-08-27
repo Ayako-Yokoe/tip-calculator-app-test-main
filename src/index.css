@@ -1,0 +1,74 @@
+:root {
+  --color-green-400: hsl(172, 67%, 45%);
+
+  --color-green-900: hsl(183, 100%, 15%);
+  --color-grey-500: hsl(186, 14%, 43%);
+  --color-grey-400: hsl(184, 14%, 56%);
+  --color-grey-200: hsl(185, 41%, 84%);
+  --color-grey-50: hsl(189, 47%, 97%);
+  --color-white: hsl(0, 100%, 100%);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-family: "Space Mono", monospace;
+  font-size: 24px;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+input {
+  font: inherit;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+button {
+  font: inherit;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+input[type="number"]::-ms-clear {
+  display: none;
+}
+
+@media (prefers-reduced-motion: redue) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
