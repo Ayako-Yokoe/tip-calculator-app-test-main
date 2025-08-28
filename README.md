@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Screenshot
 
-<img src="" alt="375px" width="auto" height="200">
+<img src="public/images/test.jpeg" alt="375px" width="auto" height="200">
 
 ### Links
 
